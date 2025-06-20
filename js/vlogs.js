@@ -17,6 +17,6 @@ const vlogs = [
     {
        id: "otro",
        title: "Otro",
-       images: "src/images/sierra.jpg",
+       images: ["src/images/sierra.jpg"]
     }
   ];
