@@ -1,0 +1,6 @@
+@mixin hover-zoom($scale: 1.05, $duration: 0.3s) {
+    transition: transform $duration ease;
+    &:hover {
+      transform: scale($scale);
+    }
+  }
