@@ -1,20 +1,17 @@
 const grid = document.getElementById("vlogGrid");
 const viewer = document.getElementById("vlogViewer");
 
-// Render vlog cards on main grid
 vlogs.forEach((vlog, index) => {
   const card = document.createElement("div");
   card.classList.add("vlog-card");
-  card.innerHTML = `
-    <a href="#" onclick="loadVlog(${index}); return false;">
+  card.innerHTML = 
+    `<a href="#" onclick="loadVlog(${index}); return false;">
       <img src="${vlog.images[0]}" alt="${vlog.title}" />
       <span>${vlog.title}</span>
-    </a>
-  `;
+    </a>`;
   grid.appendChild(card);
 });
 
-// Show vlog detail
 function loadVlog(index) {
   const vlog = vlogs[index];
   viewer.innerHTML = `
@@ -28,7 +25,6 @@ function loadVlog(index) {
   grid.style.display = "none";
 }
 
-// Go back to grid
 function closeVlog() {
   viewer.style.display = "none";
   grid.style.display = "grid";

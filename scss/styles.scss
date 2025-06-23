@@ -47,7 +47,39 @@
         @include hover-zoom();
       }
     }
-  }
+}
+
+.vlog-viewer {
+    text-align: center;  // center text & inline content
+
+    .vlog-images {
+        img {
+            max-width: 80%;
+            height: auto;
+            display: block;
+            margin: 1rem auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+        }
+    }
+
+    button {
+        display: block;
+        margin: 1.5rem auto 0;
+        padding: 0.6rem 1.2rem;
+        font-size: 1rem;
+        background-color: $primary-color; // use your color variable if you have one
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: darken($primary-color, 15%);
+        }
+    }
+}
 
 #contact {
     text-align: center;

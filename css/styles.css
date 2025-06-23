@@ -49,4 +49,35 @@ header a.right {
   margin-bottom: 69px;
 }
 
+.vlog-viewer {
+  text-align: center;
+}
+
+.vlog-viewer .vlog-images img {
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.vlog-viewer button {
+  display: block;
+  margin: 1.5rem auto 0;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  background-color: aliceblue;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.vlog-viewer button:hover {
+  background-color: aliceblue;
+}
+
+
 /*# sourceMappingURL=styles.css.map */
