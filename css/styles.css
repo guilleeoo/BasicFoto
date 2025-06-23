@@ -3,20 +3,20 @@
   font-family: "Acumin Pro Medium", sans-serif;
 }
 
-header {
+#header {
   display: flex;
   justify-content: space-between;
   margin: 1.5%;
 }
-header a {
+#header a {
   text-decoration: none;
   color: inherit;
 }
-header a.left {
+#header a.left {
   font-size: 32px;
   text-align: left;
 }
-header a.right {
+#header a.right {
   font-size: 24px;
   text-align: right;
 }
@@ -44,40 +44,24 @@ header a.right {
   transform: scale(1.05);
 }
 
+.vlog-viewer {
+  text-align: center;
+}
+.vlog-viewer .vlog-images img {
+  max-width: 80%;
+  margin: 1rem auto;
+}
+.vlog-viewer button {
+  border: none;
+  margin: 1.5rem auto 0;
+  color: black;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
 #contact {
   text-align: center;
   margin-bottom: 69px;
 }
-
-.vlog-viewer {
-  text-align: center;
-}
-
-.vlog-viewer .vlog-images img {
-  max-width: 80%;
-  height: auto;
-  display: block;
-  margin: 1rem auto;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-}
-
-.vlog-viewer button {
-  display: block;
-  margin: 1.5rem auto 0;
-  padding: 0.6rem 1.2rem;
-  font-size: 1rem;
-  background-color: aliceblue;
-  color: black;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.vlog-viewer button:hover {
-  background-color: aliceblue;
-}
-
 
 /*# sourceMappingURL=styles.css.map */
