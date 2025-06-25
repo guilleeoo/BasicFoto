@@ -1,2 +1,2 @@
 Live-site access:
-https://nicominguez.github.io/BasicFoto/
+https://guilleeoo.github.io/BasicFoto/
